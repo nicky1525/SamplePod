@@ -1,9 +1,8 @@
 
 public struct HelloWorld {
-    static let hello = "Hello world!"
-    
-    public static func sayHello() {
-        print(hello)
+
+    public static func sayHello(name: String = "world") {
+        print("Hello \(name)!")
     }
 }
 
