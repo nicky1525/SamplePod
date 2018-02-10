@@ -1,0 +1,22 @@
+{
+  "name": "SamplePod",
+  "version": "0.1.0",
+  "summary": "A short description of SamplePod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nicky1525/SamplePod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nicky1525": "nicky_1525@hotmail.it"
+  },
+  "source": {
+    "git": "https://github.com/nicky1525/SamplePod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SamplePod/Classes/**/*"
+}
