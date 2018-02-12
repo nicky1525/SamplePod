@@ -3,8 +3,8 @@
 # exit on error
 set -e
 
-$branch=master
-$version=$(awk '{if ($1 == "s.version") print $3}' SamplePod.podspec | sed s/\'//g)
+branch=master
+version=$(awk '{if ($1 == "s.version") print $3}' SamplePod.podspec | sed s/\'//g)
 
 git stash
 git checkout $branch
