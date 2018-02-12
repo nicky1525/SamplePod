@@ -20,9 +20,3 @@ git commit -m "Update sample app"
 git tag $version -m "v$version"
 git push --tags
 pod repo push SamplePod
-echo ',\'.-.\'. 
-\'\~ o/` ,,
- { @ } f
- /`-\'\$ 
-(_/-\_)
-'
