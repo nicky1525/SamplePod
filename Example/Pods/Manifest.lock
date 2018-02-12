@@ -1,5 +1,5 @@
 PODS:
-  - SamplePod (0.2.0)
+  - SamplePod (0.2.2)
 
 DEPENDENCIES:
   - SamplePod (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SamplePod: 252e51c25d80289ccffac32f73dba092be6d1b82
+  SamplePod: f752d46d19fde7f921036d86e664d22fee3fc526
 
 PODFILE CHECKSUM: c3b1084de1736f412ff68cbbd7a039f2e6d194ef
 
