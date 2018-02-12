@@ -4,7 +4,7 @@
 set -e
 
 $branch=master
-$version=0.2.0
+$version=$(awk '{if ($1 == "s.version") print $3}' SamplePod.podspec | sed s/\'//g)
 
 git stash
 git checkout $branch
@@ -20,3 +20,9 @@ git commit -m "Update sample app"
 git tag $version -m "v$version"
 git push --tags
 pod repo push SamplePod
+echo ',\'.-.\'. 
+\'\~ o/` ,,
+ { @ } f
+ /`-\'\$ 
+(_/-\_)
+'
